@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ "$1" = "" ];then
-    echo "Usage: bfc filename"
+    python3 $PWD/brainfuck-repl.py
 else
-    python3 /mnt/c/Users/abaks/Desktop/Work/Brainfuck/brainfuck.py $1
+    python3 $PWD/brainfuck.py $1
 fi
