@@ -1,5 +1,5 @@
 # PyBrainfuck
-A pure Python interpreter for the esoteric programming language called Brainfuck
+A pure Python interpreter and REPL for the esoteric programming language called Brainfuck
 
 The language manipulates a tape (considered to be of length 1024 in this implementation) of integers by using a single pointer 
 to one cell in this tape
