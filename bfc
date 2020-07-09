@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ "$1" = "" ];then
+    echo "Usage: bfc filename"
+else
+    python3 /mnt/c/Users/abaks/Desktop/Work/Brainfuck/brainfuck.py $1
+fi
