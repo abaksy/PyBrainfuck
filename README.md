@@ -16,26 +16,26 @@ All statements between [] are run in a loop until the value of the cell currentl
 To run the Brainfuck interpreter on your system (Linux), clone the repository and then add the current working directory to
 the PATH variable using the terminal command 
 ```
-export PATH=$PATH:path-to-PyBrainfuck
+$ export PATH=$PATH:path-to-PyBrainfuck
 ```
 where path-to-PyBrainfuck is the location of the folder, for example ~/PyBrainfuck
 
 This will only temporarily affect the system. If you want the changes to persist then use the following
 
 ```
-sudo nano ~/.bashrc
+$ sudo nano ~/.bashrc
 ```
 After the .bashrc file opens in nano, add the export command above at the end of the file
 
 Once the folder is added to PATH, you can use the interpreter to interpret your own Brainfuck scripts
 
 ```
-bfc <filename.txt>
+$ bfc <filename.txt>
 ```
 
 The REPL (Read-Eval-Print Loop) can be used by simply typing 
 
 ```
-bfc
+$ bfc
 ```
 into the terminal
