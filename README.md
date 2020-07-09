@@ -32,3 +32,10 @@ Once the folder is added to PATH, you can use the interpreter to interpret your 
 ```
 bfc <filename.txt>
 ```
+
+The REPL (Read-Eval-Print Loop) can be used by simply typing 
+
+```
+bfc
+```
+into the terminal
