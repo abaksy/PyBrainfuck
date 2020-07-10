@@ -8,8 +8,7 @@ The symbols < and > are used to move left and right along the tape <br>
 The symbols + and - respectively increment and decrement the content of the cell being currently pointed to <br>
 The . symbol prints the ASCII value of the cell currently pointed to <br>
 The , symbol asks for user input and stores that value to the cell currently pointed to <br>
-The [] symbols are loop controls
-All statements between [] are run in a loop until the value of the cell currently pointed to reaches 0
+The [] symbols are loop controls, all statements between [] are run in a loop until the value of the cell currently pointed to reaches 0
 
 ## Usage
 
