@@ -4,10 +4,10 @@ A pure Python interpreter and REPL for the esoteric programming language called 
 The language manipulates a tape (considered to be of length 1024 in this implementation) of integers by using a single pointer 
 to one cell in this tape
 
-The symbols < and > are used to move left and right along the tape
-The symbols + and - respectively increment and decrement the content of the cell being currently pointed to
-The . symbol prints the ASCII value of the cell currently pointed to
-The , symbol asks for user input and stores that value to the cell currently pointed to
+The symbols < and > are used to move left and right along the tape <br>
+The symbols + and - respectively increment and decrement the content of the cell being currently pointed to <br>
+The . symbol prints the ASCII value of the cell currently pointed to <br>
+The , symbol asks for user input and stores that value to the cell currently pointed to <br>
 The [] symbols are loop controls
 All statements between [] are run in a loop until the value of the cell currently pointed to reaches 0
 
