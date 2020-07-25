@@ -12,7 +12,7 @@ The [] symbols are loop controls, all statements between [] are run in a loop un
 
 # Setup
 
-Clone the repository to your local Linux machine, ```cd``` into the folder, and copy the output of the ```pwd``` command
+Clone the repository to your local Linux machine, ```cd``` into the folder, and copy the output of the ```pwd``` command <br>
 This will give the path to the PyBrainfuck folder
 
 Now open the .bashrc folder using the command 
@@ -36,7 +36,9 @@ Now you can run the interpreter from any location on your system
 Run the following
 ```
 bfc <script-file-path>
+```
+to run your own brainfuck scripts, or 
+```
 bfc
 ```
-
-Use these to run the file interpreter and the CLI respectively 
+to run the Command Line Interface
