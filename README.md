@@ -24,7 +24,7 @@ Add the following two lines to the very end of the .bashrc file
 
 ```
 export PATH=$PATH:path-to-PyBrainfuck-folder
-export PYBRAINFUCK=path-to-PyBrainfuck-folder
+export PYBFK=path-to-PyBrainfuck-folder
 ```
 
 where path-to-PyBrainfuck-folder is the path you copied earlier. 
