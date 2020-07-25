@@ -10,31 +10,35 @@ The . symbol prints the ASCII value of the cell currently pointed to <br>
 The , symbol asks for user input and stores that value to the cell currently pointed to <br>
 The [] symbols are loop controls, all statements between [] are run in a loop until the value of the cell currently pointed to reaches 0
 
-## Usage
+# Setup
 
-To run the Brainfuck interpreter on your system (Linux), clone the repository, ```cd``` into the PyBrainfuck directory and then add the current working directory to
-the PATH variable using the terminal command 
-```
-$ export PATH=$PATH:path-to-PyBrainfuck
-```
-where path-to-PyBrainfuck is the location of the folder, for example ~/PyBrainfuck
+Clone the repository to your local Linux machine, ```cd``` into the folder, and copy the output of the ```pwd``` command <br>
+This will give the path to the PyBrainfuck folder
 
-This will only temporarily affect the system. If you want the changes to persist then use the following
+Now open the .bashrc folder using the command 
 
 ```
-$ sudo nano ~/.bashrc
+sudo nano ~/.bashrc
 ```
-After the .bashrc file opens in nano, add the export command above at the end of the file
-
-Once the folder is added to PATH, you can use the interpreter to interpret your own Brainfuck scripts
+Add the following two lines to the very end of the .bashrc file
 
 ```
-$ bfc <filename.txt>
+export PATH=$PATH:path-to-PyBrainfuck-folder
+export PYBRAINFUCK=path-to-PyBrainfuck-folder
 ```
 
-The REPL (Read-Eval-Print Loop) can be used by simply typing 
+where path-to-PyBrainfuck-folder is the path you copied earlier. 
 
+Now you can run the interpreter from any location on your system
+
+# Usage
+
+Run the following
 ```
-$ bfc
+bfc <script-file-path>
 ```
-into the terminal
+to run your own brainfuck scripts, or 
+```
+bfc
+```
+to run the Command Line Interface
