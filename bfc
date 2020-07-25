@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ "$1" = "" ];then
-    python3 $PWD/brainfuck-repl.py
+    python3 $PYBFK/brainfuck-repl.py
 else
-    python3 $PWD/brainfuck.py $1
+    python3 $PYBFK/brainfuck.py $1
 fi
