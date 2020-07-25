@@ -12,7 +12,7 @@ The [] symbols are loop controls, all statements between [] are run in a loop un
 
 ## Usage
 
-To run the Brainfuck interpreter on your system (Linux), clone the repository and then add the current working directory to
+To run the Brainfuck interpreter on your system (Linux), clone the repository, ```cd``` into the PyBrainfuck directory and then add the current working directory to
 the PATH variable using the terminal command 
 ```
 $ export PATH=$PATH:path-to-PyBrainfuck
