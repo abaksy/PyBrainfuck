@@ -27,8 +27,8 @@ export PATH=$PATH:path-to-PyBrainfuck-folder
 export PYBFK=path-to-PyBrainfuck-folder
 ```
 
-where path-to-PyBrainfuck-folder is the path you copied earlier. 
-
+where path-to-PyBrainfuck-folder is the path you copied earlier. <br>
+Close the current terminal and open a new one for these changes to take effect<br>
 Now you can run the interpreter from any location on your system
 
 # Usage
