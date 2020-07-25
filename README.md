@@ -10,8 +10,6 @@ The . symbol prints the ASCII value of the cell currently pointed to <br>
 The , symbol asks for user input and stores that value to the cell currently pointed to <br>
 The [] symbols are loop controls, all statements between [] are run in a loop until the value of the cell currently pointed to reaches 0
 
-## Usage
-
 # Setup
 
 Clone the repository to your local Linux machine, ```cd``` into the folder, and copy the output of the ```pwd``` command
@@ -33,6 +31,9 @@ where path-to-PyBrainfuck-folder is the path you copied earlier.
 
 Now you can run the interpreter from any location on your system
 
+# Usage
+
+Run the following
 ```
 bfc <script-file-path>
 bfc
