@@ -15,7 +15,7 @@ The [] symbols are loop controls, all statements between [] are run in a loop un
 Clone the repository to your local Linux machine, ```cd``` into the folder, and copy the output of the ```pwd``` command <br>
 This will give the path to the PyBrainfuck folder
 
-Now open the .bashrc folder using the command 
+Now open the .bashrc file using the command 
 
 ```
 sudo nano ~/.bashrc
